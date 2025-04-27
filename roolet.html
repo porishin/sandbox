@@ -53,9 +53,9 @@
       margin-bottom: 10px;
       font-size: 16px;
       border-radius: 8px;
-      border: 1px solid #ccc;
+      border: 0px solid #ccc;
       padding: 8px;
-      box-shadow: inset 1px 1px 4px rgba(0,0,0,0.1);
+      box-shadow: inset 0px 0px 0px rgba(0,0,0,0.1);
     }
     .roulette {
       display: inline-block;
@@ -75,16 +75,16 @@
 <body>
   <h1>🎉 チームルーレット 🎉</h1>
 
-  <div>
+  <div hidden>
     <label>チーム（カンマ区切り）：</label><br>
     <textarea id="teamsInput">A,B,C,D</textarea>
   </div>
   <div>
-    <label>修飾語（カンマ区切り）：</label><br>
+    <label>修飾語</label><br>
     <textarea id="modifiersInput">エモい,尊い,沼る,チルい,コワモテの</textarea>
   </div>
   <div>
-    <label>モノ（カンマ区切り）：</label><br>
+    <label>モノ</label><br>
     <textarea id="objectsInput">ラーメン,自動販売機,冷蔵庫,車,銭湯</textarea>
   </div>
 
